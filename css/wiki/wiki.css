@@ -27,12 +27,15 @@
     border-radius: 45px;
 }
 
-p, li {
+p, .panel-body li  {
 	color : #AAAAAA ;
 	font-family:Lucida Caligraphy;
 	font-size: 120%;
 	text-align:left;
 	margin: 5px 0 5px 0;
+}
+li {
+	margin: 5px 0 5px 0;	
 }
 
   .affix {
