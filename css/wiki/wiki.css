@@ -27,7 +27,7 @@
     border-radius: 45px;
 }
 
-p {
+p, li {
 	color : #AAAAAA ;
 	font-family:Lucida Caligraphy;
 	font-size: 120%;
@@ -48,10 +48,6 @@ h2{
 	color: white;
 	font-style: italic;
 	font-weight: gras;
-}
-
-li{
-	margin: 5px 0 5px 0;
 }
 
 #img_title{
@@ -112,29 +108,29 @@ li{
 }
 
 .wiki-table th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: #286090;
-    color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #286090;
+	color: white;
 	border: 1px solid #ddd;
 }
 
 .wiki-table-prune th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: #902860;
-    color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #902860;
+	color: white;
 	border: 1px solid #ddd;
 }
 
 .wiki-table-pomme th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: #609028;
-    color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #609028;
+	color: white;
 	border: 1px solid #ddd;
 }
 /* arrondi les angles */
@@ -191,29 +187,28 @@ li{
 /* Panel-wiki*/
 
 .panel-wiki{
-    margin: 10px 0 10px 0;
-    background-color: #333333;
-    border-radius: 3px;
+	margin: 10px 0 10px 0;
+	background-color: #333333;
+	border-radius: 3px;
 	border : 1px inset transparent;
 	color:#AAAAAA;
 }
 
 .panel-heading-wiki{
-    background-color: #222222;
+	background-color: #222222;
 	border-radius: 0px! important;
 	border : 1px inset transparent;
 	color: white;
-    height: 62px;
-	
+	min-height: 62px;
 }
 
 .panel-icone-wiki{
-    background: #1C1C1C;
+	background: #1C1C1C;
 	border : 1px inset transparent;
 	color: white;
 	display: inline-block;
-    width: 75px;
-    height: 62px;
+	width: 75px;
+	height: 62px;
 }
 
 .panel-icone-wiki img {
