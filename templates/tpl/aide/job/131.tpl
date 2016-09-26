@@ -1,4 +1,4 @@
-<div ng-controller="ctrlTabs" data-job="111">
+<div ng-controller="ctrlTabs" data-job="131">
 	<ul class="nav nav-tabs" role="tablist">
 		<li><a ng-click="tabs='desc'">Présentation </a></li>
 		<li><a ng-click="tabs='memb'">Employés </a></li>
@@ -32,7 +32,7 @@
 					<br />
 		</div>
 		<div role="tabpanel" class="tab-pane active" ng-show="tabs=='memb'">
-			<h2 class="text-center"><u>Liste des emplo</u>y<u>és :</u></h2><br /><br />
+			<h2 class="text-center"><u>Liste des em</u>p<u>lo</u>y<u>és :</u></h2><br /><br />
 			<i ng-hide="users" ng-repeat="i in [5,4,3,2,1]" class="fa fa-cog fa-spin fa-{{i}}x"></i>
 			<table width="100%" class="table-condensed">
 				<tbody><!-- methode un peut dégueux pour centrer, a revoir vite ! -->
@@ -98,7 +98,7 @@
 			<span ng-repeat="item in items" rp-item-information="{{item.id}}"></span><br />
 		</div>
 		<div role="tabpanel" class="tab-pane active" ng-show="tabs=='quest'">
-			<h2>Nos missions :</h2><br />
+			<h2 class="text-center"><u>Nos missions :</u></h2><br />
 			<table class="table-condensed">
 				<tbody>
 					<tr>
